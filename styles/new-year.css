@@ -156,46 +156,126 @@ body {
     margin: 0 auto;
     justify-content: center;
 }
-.coming-title{
+
+.coming-title {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 0;
 
 }
-.coming-text{
+
+.coming-text {
     color: #070211;
     font-size: 40px;
     font-weight: 900;
     text-transform: capitalize;
     margin-top: 5px;
 }
-.coming-description{
+
+.coming-description {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     margin-top: 8px;
     width: 393px;
     margin-right: 70px;
 }
-.photo-title{
-width: 364px;
-height: 364px;
-border-radius: 364.844px;
-background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+
+.photo-title {
+    width: 364px;
+    height: 364px;
+    border-radius: 364.844px;
+    background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
 }
-.photo-round{
-width: 450px;
-height: 450px;
-border-radius: 463px;
-border: 15px solid #F00;
-margin-top: -419px;
-margin-left: -58px;
+
+.photo-round {
+    width: 450px;
+    height: 450px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin-top: -419px;
+    margin-left: -58px;
 }
-.year-title{
+
+.year-title {
     font-size: 48px;
     font-weight: 700;
 }
-.year-description{
-    color:rgba(7, 2, 17, 0.60);
+
+.year-description {
+    color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     margin-top: 8px;
+}
+
+/* holiday section */
+.holiday-container {
+    width: 1320px;
+    height: 482px;
+    background: #FFF;
+}
+
+.holiday-container {
+    width: 1320px;
+    height: 600px;
+    margin: 80px auto;
+    border-radius: 16px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+/* .holiday-text{
+    text-align: center;
+} */
+.holiday-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.holiday-content {
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.holiday-photo {
+    position: relative;
+    width: 1320px;
+    height: 715px;
+}
+
+.rectangle {
+    position: absolute;
+    bottom: 0;
+}
+
+.girl-photo {
+    position: absolute;
+    right: 0;
+    top: 7%;
+}
+.discount{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    z-index: 1;
+}
+.gift-photo{
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 7%;
 }
