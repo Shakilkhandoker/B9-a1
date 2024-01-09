@@ -219,14 +219,9 @@ body {
     height: 600px;
     margin: 80px auto;
     border-radius: 16px;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
-/* .holiday-text{
-    text-align: center;
-} */
+
 .holiday-title {
     font-size: 24px;
     font-weight: 500;
@@ -267,15 +262,45 @@ body {
     right: 0;
     top: 7%;
 }
-.discount{
+
+.discount {
     position: absolute;
     top: 30%;
     left: 60%;
     z-index: 1;
 }
-.gift-photo{
+
+.gift-photo {
     position: absolute;
     z-index: 2;
     top: 20%;
     left: 7%;
+}
+
+/* portfolio section  */
+.portfolio-container {
+    width: 1320px;
+    height: 715px;
+    margin: 0 auto;
+    padding-top: 340px;
+}
+
+.portfolio-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-content {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.portfolio-description {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    margin-bottom: 12px;
 }
