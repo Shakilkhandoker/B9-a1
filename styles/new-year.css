@@ -280,7 +280,7 @@ body {
 /* portfolio section  */
 .portfolio-container {
     width: 1320px;
-    height: 715px;
+    height: 1250px;
     margin: 0 auto;
     padding-top: 340px;
 }
@@ -317,4 +317,129 @@ body {
     height: 450px;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* subscribe newsletter section */
+.news-container {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+}
+
+.letter-photo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.letter-title {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-family: 900;
+    text-transform: capitalize;
+}
+
+.letter-description {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.letter-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.email-btn {
+    width: 648px;
+    height: 72px;
+    background: #FFF;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.sub-btn {
+    background-color: #F00;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: 600;
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0;
+}
+
+/* footer section  */
+.fot-container {
+    width: 100%;
+    height: 650px;
+    background: #070211;
+    margin: 80px auto;
+    margin-bottom: 0;
+}
+
+.first-title {
+    width: 375px;
+    height: 300px;
+}
+
+.first-title h4 {
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 500;
+    padding-top: 120px;
+}
+
+.call-fot {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 120px;
+
+}
+
+.call-fot div {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.call-fot div img {
+    height: 36px;
+    margin-right: 10px;
+}
+
+
+
+.line {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-photo {
+    display: flex;
+    gap: 15px;
+    margin: 35px 0;
+
+}
+
+.right-text {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
 }
