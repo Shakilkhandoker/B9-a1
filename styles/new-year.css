@@ -75,7 +75,6 @@ body {
 
 /* Welcome section */
 
-
 .welcome-container {
     display: flex;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
@@ -199,6 +198,7 @@ body {
 .year-title {
     font-size: 48px;
     font-weight: 700;
+    margin-top: 20px;
 }
 
 .year-description {
